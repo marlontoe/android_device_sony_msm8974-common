@@ -87,8 +87,8 @@ BOARD_RIL_CLASS := ../../../device/sony/msm8974-common/ril/
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
-BOARD_SEPOLICY_DIRS += \
-    device/sony/msm8974-common/sepolicy
+# BOARD_SEPOLICY_DIRS += \
+#    device/sony/msm8974-common/sepolicy
 
 # The list below is order dependent
 # BOARD_SEPOLICY_UNION += \
