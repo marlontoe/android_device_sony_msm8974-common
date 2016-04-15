@@ -107,6 +107,7 @@ BOARD_SEPOLICY_UNION += \
     sct.te \
     sensors.te \
     suntrold.te \
+    system_app.te \
     system_server.te \
     tad.te \
     taimport.te \

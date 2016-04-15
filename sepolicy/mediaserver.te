@@ -10,6 +10,3 @@ allow mediaserver ta_data_file:dir search;
 
 # /data/local/tmp for Chokoball
 dontaudit mediaserver shell_data_file:dir search;
-
-# check sound card status
-allow mediaserver audiod:binder call;
